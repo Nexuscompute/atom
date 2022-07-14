@@ -170,7 +170,8 @@
     "whitespace": "https://www.atom.io/api/packages/whitespace/versions/0.37.8/tarball",
     "winreg": "^1.2.1",
     "wrap-guide": "https://www.atom.io/api/packages/wrap-guide/versions/0.41.0/tarball",
-    "yargs": "16.1.0"
+    "yargs": "16.1.0",
+    "@snyk/protect": "latest"
   },
   "packageDependencies": {
     "atom-dark-syntax": "file:./packages/atom-dark-syntax",
@@ -270,7 +271,9 @@
   "private": true,
   "scripts": {
     "preinstall": "node -e 'process.exit(0)'",
-    "test": "node script/test"
+    "test": "node script/test",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "standard-engine": "./script/node_modules/standard",
   "standard": {
@@ -284,5 +287,6 @@
       "atom",
       "snapshotResult"
     ]
-  }
+  },
+  "snyk": true
 }
