@@ -165,7 +165,7 @@
     "tree-view": "git+https://github.com/atom/tree-view.git#bc42868",
     "typescript-simple": "8.0.6",
     "update-package-dependencies": "file:./packages/update-package-dependencies",
-    "vscode-ripgrep": "1.9.0",
+    "vscode-ripgrep": "1.13.2",
     "welcome": "file:packages/welcome",
     "whitespace": "git+https://github.com/atom/whitespace.git#53d5ba9",
     "winreg": "^1.2.1",
