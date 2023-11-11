@@ -52,7 +52,7 @@
     "tello": "1.2.0",
     "terser": "^3.8.1",
     "webdriverio": "^5.9.2",
-    "yargs": "4.8.1"
+    "yargs": "7.0.0"
   },
   "scripts": {
     "postinstall": "node ./redownload-electron-bins.js"
