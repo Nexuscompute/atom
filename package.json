@@ -40,7 +40,7 @@
     "base16-tomorrow-light-theme": "file:packages/base16-tomorrow-light-theme",
     "bookmarks": "git+https://github.com/atom/bookmarks.git#35363fb",
     "bracket-matcher": "git+https://github.com/atom/bracket-matcher.git#d07c17c",
-    "chai": "4.3.4",
+    "chai": "4.3.10",
     "chart.js": "2.9.4",
     "clear-cut": "^2.0.2",
     "coffee-script": "1.12.7",
