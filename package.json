@@ -115,7 +115,7 @@
     "language-typescript": "git+https://github.com/atom/language-typescript.git#08eb099",
     "language-xml": "git+https://github.com/atom/language-xml.git#c5d2003",
     "language-yaml": "git+https://github.com/atom/language-yaml.git#f8d98ba",
-    "less-cache": "1.1.0",
+    "less-cache": "1.1.1",
     "line-ending-selector": "file:packages/line-ending-selector",
     "line-top-index": "0.3.1",
     "link": "file:packages/link",
