@@ -3,7 +3,7 @@
   "description": "Atom release scripts",
   "dependencies": {
     "@azure/storage-blob": "^12.5.0",
-    "@octokit/rest": "^15.9.5",
+    "@octokit/rest": "^15.18.3",
     "download": "^7.1.0",
     "glob": "7.0.3",
     "pr-changelog": "^0.3.4",
